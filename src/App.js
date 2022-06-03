@@ -146,10 +146,10 @@ function App() {
               </form>
             </div>
             <div className="col" style={{ "paddingLeft": "50px" }}>
-              <div>
+             
 
 
-                <GoogleMap
+               ( <GoogleMap
                   className='mapCss'
                   mapContainerStyle={containerStyle}
                   center={center}
@@ -169,7 +169,7 @@ function App() {
 
 
 
-              </div>
+             )
 
             </div>
           </div>
